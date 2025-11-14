@@ -1,51 +1,70 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dorbeautybar | Güzellik Salonu Ankara</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dorbeautybar | Güzellik Salonu Ankara</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-  <img src="gallery/Dorlogo.jpg" class="logo">
-  <h1>Dorbeautybar</h1>
-  <p>Güzellik Salonu • Manikür • Pedikür • Protez Tırnak</p>
-</header>
+    <header class="header">
+        <img src="public/images/logo.png" class="logo" alt="Dorbeautybar Logo">
+        <nav>
+            <a href="#services">Hizmetler</a>
+            <a href="#gallery">Galeri</a>
+            <a href="#about">Hakkında</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+    </header>
 
-<section class="about">
-<h2>Hakkında</h2>
-<p>Protez Tırnak Esat<br>Protez tırnak | Pedikür | Kirpik lifting | Steril edilmiş ürünler<br>Patili dostlarınızla da hoş geldiniz.</p>
-</section>
+    <section class="hero">
+        <h1>Dorbeautybar</h1>
+        <p>Protez Tırnak | Manikür | Pedikür | Kirpik Lifting</p>
+        <a class="btn" href="https://wa.me/905368673670" target="_blank">WhatsApp ile Randevu Al</a>
+    </section>
 
-<section class="gallery">
-<h2>Galeri</h2>
-<div class="grid">
-<img src="gallery/566561773_17974977299936188_7783355014183578516_n..jpg">
-<img src="gallery/564844038_17974774793936188_2045462206103651435_n..jpg">
-<img src="gallery/565262971_17974977308936188_2467079533020681639_n..jpg">
-<img src="gallery/557942381_17973481415936188_5682806563746962007_n..jpg">
-<img src="gallery/Dorlogo.jpg">
-<img src="gallery/556843320_17973261506936188_5358807365045518990_n..jpg">
-<img src="gallery/569529318_17975683583936188_562227601132067442_n..jpg">
-<img src="gallery/561627468_17974196156936188_7507881664610276865_n..jpg">
-<img src="gallery/568742724_17975545238936188_912550303105757063_n..jpg">
-<img src="gallery/556294615_17972939396936188_1171253360300464430_n..jpg">
-<img src="gallery/571002360_17975771405936188_2319485597120850249_n..jpg">
+    <section id="services" class="services">
+        <h2>Hizmetler</h2>
+        <div class="service-list">
+            <div class="service">Protez Tırnak</div>
+            <div class="service">Manikür</div>
+            <div class="service">Pedikür</div>
+            <div class="service">Kirpik Lifting</div>
+            <div class="service">Kalıcı Oje</div>
+        </div>
+    </section>
 
-</div>
-</section>
+    <section id="gallery" class="gallery">
+        <h2>Galeri</h2>
+        <div id="gallery-grid" class="gallery-grid"></div>
+    </section>
 
-<section class="contact">
-<h2>İletişim</h2>
-<a href="tel:+905555555555">Şimdi Ara</a><br>
-<a href="https://wa.me/905555555555">WhatsApp Randevu</a><br>
-<a href="https://instagram.com">Instagram</a>
+    <section id="about" class="about">
+        <h2>Hakkında</h2>
+        <p>
+            Protez Tırnak Esat<br>
+            Protez tırnak | Pedikür | Kirpik lifting<br>
+            Steril edilmiş ürünler<br>
+            Patili dostlarınızla da hoş geldiniz 🐾
+        </p>
+    </section>
 
-<h3>Konum</h3>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300"></iframe>
-</section>
+    <section id="contact" class="contact">
+        <h2>İletişim</h2>
+        <p><strong>Adres:</strong> 100. Yıl Mahallesi, Hülya Sokak 1/D, Çankaya / Ankara</p>
+        <p><strong>Telefon:</strong> <a href="tel:05368673670">0536 867 36 70</a></p>
+        <p><strong>Instagram:</strong> <a href="https://instagram.com/dorbeautybar" target="_blank">@dorbeautybar</a></p>
+        <a class="btn" href="https://wa.me/905368673670" target="_blank">WhatsApp ile Randevu</a>
 
+        <iframe 
+            src="https://www.google.com/maps?q=100.+Y%C4%B1l+Mahallesi+H%C3%BClya+Sokak+1%2FD+%C3%87ankaya+Ankara&output=embed"
+            width="100%" height="300"
+            style="border:0; border-radius:15px; margin-top:20px;"
+            allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
